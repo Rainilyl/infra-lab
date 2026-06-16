@@ -2,7 +2,6 @@
 chcp 65001 >nul 2>&1
 title infra-lab
 
-:: 版权信息（base64 编码防篡改，勿修改下方字符串）
 powershell -Command "[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogIGluZnJhLWxhYgogIEdpdEh1YjogaHR0cHM6Ly9naXRodWIuY29tL1JhaW5pbHlsL2luZnJhLWxhYgogIEF1dGhvcjogUmFpbmlseWwKPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ=='))"
 echo.
 
