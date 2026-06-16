@@ -1,0 +1,63 @@
+export default {
+  header: {
+    title: 'YAML Playground',
+    exercises: 'Exercises',
+    sandbox: 'Free Practice',
+    darkMode: 'Switch to dark mode',
+    lightMode: 'Switch to light mode',
+  },
+  home: {
+    title: 'YAML Practice Exercises',
+    subtitle: 'Learn YAML by writing Ansible Playbooks and Kubernetes manifests. Pick an exercise, write your YAML, and check your answer.',
+    completed: 'Completed',
+  },
+  category: {
+    playbook: 'Ansible Playbook',
+    k8s: 'Kubernetes',
+  },
+  difficulty: {
+    beginner: 'Beginner',
+    intermediate: 'Intermediate',
+  },
+  exercise: {
+    sidebarTitle: 'Exercises',
+    validate: 'Validate',
+    checkAnswer: 'Check Answer',
+    reset: 'Reset',
+    validYaml: 'Valid YAML',
+    invalidYaml: 'Invalid YAML',
+    warnings: (n) => `${n} warning(s)`,
+    correct: 'Correct!',
+    notQuite: 'Not quite — see the diff',
+    syntaxValid: 'YAML syntax is valid.',
+    warning: 'Warning',
+    loadingEditor: 'Loading editor...',
+    loading: 'Loading...',
+    loadFailed: 'Failed to load exercise',
+    serverUnavailable: 'Server unavailable',
+  },
+  diff: {
+    title: 'Answer Comparison',
+    backToEditor: 'Back to Editor',
+    yourAnswer: 'Your Answer',
+    referenceAnswer: 'Reference Answer',
+  },
+  notFound: {
+    title: '404 — Page Not Found',
+    message: "The page you're looking for doesn't exist.",
+    back: 'Back to Exercises',
+  },
+  error: {
+    title: 'Something went wrong',
+    reload: 'Reload',
+    retry: 'Retry',
+  },
+  sandbox: {
+    title: 'Free Practice',
+    subtitle: 'Write any YAML freely. Only syntax validation — no exercises, no answers.',
+    clear: 'Clear',
+    status: 'Status',
+    notValidated: 'Not validated yet',
+    errors: 'Errors',
+  },
+};

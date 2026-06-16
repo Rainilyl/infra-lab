@@ -1,0 +1,63 @@
+export default {
+  header: {
+    title: 'YAML 练习场',
+    exercises: '练习题',
+    sandbox: '自由练习',
+    darkMode: '切换至深色模式',
+    lightMode: '切换至浅色模式',
+  },
+  home: {
+    title: 'YAML 练习题',
+    subtitle: '通过编写 Ansible Playbook 和 Kubernetes 清单来学习 YAML。选择一道题，编写你的 YAML，然后对照参考答案。',
+    completed: '已完成',
+  },
+  category: {
+    playbook: 'Ansible Playbook',
+    k8s: 'Kubernetes',
+  },
+  difficulty: {
+    beginner: '初级',
+    intermediate: '中级',
+  },
+  exercise: {
+    sidebarTitle: '练习列表',
+    validate: '语法校验',
+    checkAnswer: '查看答案',
+    reset: '重置',
+    validYaml: 'YAML 语法正确',
+    invalidYaml: 'YAML 语法错误',
+    warnings: (n) => `${n} 个警告`,
+    correct: '回答正确！',
+    notQuite: '还有差异 — 请查看对比',
+    syntaxValid: 'YAML 语法校验通过。',
+    warning: '警告',
+    loadingEditor: '编辑器加载中...',
+    loading: '加载中...',
+    loadFailed: '练习加载失败',
+    serverUnavailable: '服务器不可用',
+  },
+  diff: {
+    title: '答案对比',
+    backToEditor: '返回编辑器',
+    yourAnswer: '你的答案',
+    referenceAnswer: '参考答案',
+  },
+  notFound: {
+    title: '404 — 页面未找到',
+    message: '你访问的页面不存在。',
+    back: '返回练习列表',
+  },
+  error: {
+    title: '出了点问题',
+    reload: '刷新页面',
+    retry: '重试',
+  },
+  sandbox: {
+    title: '自由练习',
+    subtitle: '自由编写任意 YAML，仅做语法校验 — 无题目、无答案。',
+    clear: '清空',
+    status: '状态',
+    notValidated: '尚未校验',
+    errors: '错误列表',
+  },
+};
