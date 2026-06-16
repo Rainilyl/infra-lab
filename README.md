@@ -143,7 +143,7 @@ npm run dev
 
 ## Adding Exercises
 
-Edit `server/data/exercises.json`. Each exercise has:
+Edit `server/data/exercises.json`. 
 
 
 Restart the server after editing.
