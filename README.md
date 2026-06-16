@@ -145,18 +145,5 @@ npm run dev
 
 Edit `server/data/exercises.json`. Each exercise has:
 
-```json
-{
-  "id": "unique-id",
-  "category": "playbook | k8s",
-  "title": "English Title",
-  "title_zh": "中文标题",
-  "difficulty": "beginner | intermediate",
-  "description": "English description...",
-  "description_zh": "中文描述...",
-  "template": "starter YAML template",
-  "answer": "reference answer YAML"
-}
-```
 
 Restart the server after editing.
